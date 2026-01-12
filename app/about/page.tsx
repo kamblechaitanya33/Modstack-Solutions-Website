@@ -12,19 +12,19 @@ const teamMembers = [
     name: "Sahil Ghodse",
     role: "Chief Operating Officer (COO)",
     bio: "Oversees daily operations, project execution, and process optimization to ensure efficient delivery.",
-    image: "/sahil_coo.png",
+    image: "/sahil.png",
   },
   {
     name: "Arbaaz Desai",
     role: "Chief Financial Officer (CFO)",
     bio: "Manages company finances, budgeting, compliance, and financial planning for sustainable growth.",
-    image: "arbaaz_cfo.jpg",
+    image: "/arbaz.png",
   },
   {
     name: "Chaitanya Kamble",
     role: "Founder & CEO",
     bio: "Drives company vision, strategy, client relationships, and business growth with a strong tech background.",
-    image: "/professional-headshot.jpg",
+    image: "/chaitanya.png",
   },
 ]
 
