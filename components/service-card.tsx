@@ -10,6 +10,7 @@ export function ServiceCard({
     features: string[]
     technologies: string[]
     icon: string
+    imagePath:string
   }
   index: number
 }) {
@@ -33,7 +34,7 @@ export function ServiceCard({
                   <span className="text-[#3b82f6] font-bold mt-1">✓</span>
                   <span className="text-[#374151]">{feature}</span>
                 </li>
-              ))}
+              ))} 
             </ul>
           </div>
 
@@ -52,7 +53,7 @@ export function ServiceCard({
 
         {/* Image Placeholder */}
         <div className="flex-1">
-          <img src="web_development_icon.png" alt={service.title} className="w-full rounded-xl shadow-lg" />
+          <img src={service.imagePath} alt={service.title} className="w-full rounded-xl shadow-lg" />
         </div>
         
       </div>
