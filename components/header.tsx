@@ -188,10 +188,10 @@ import { useEffect, useRef, useState } from "react"
 const navItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
-  { name: "About", href: "/about" },
   { name: "Portfolio", href: "/portfolio" },
   { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
+  { name: "About Us", href: "/about" },
+  { name: "Contact Us", href: "/contact" },
 ]
 
 const BRAND_BLUE = "#2563eb"
