@@ -3,28 +3,28 @@ import { Footer } from "@/components/footer"
 
 const teamMembers = [
   {
-    name: "Mustafa Khan",
+    // name: "Mustafa Khan",
     role: "Chief Technology Officer (CTO)",
     bio: "Expert in software architecture, cloud platforms, system scalability, and technical strategy.",
-    image: "/mustafa_cto.jpg",
+    // image: "/mustafa_cto.jpg",
   },
   {
-    name: "Sahil Ghodse",
+    // name: "Sahil Ghodse",
     role: "Chief Operating Officer (COO)",
     bio: "Oversees daily operations, project execution, and process optimization to ensure efficient delivery.",
-    image: "/sahil.png",
+    // image: "/sahil.png",
   },
   {
-    name: "Arbaaz Desai",
+    // name: "Arbaaz Desai",
     role: "Chief Financial Officer (CFO)",
     bio: "Manages company finances, budgeting, compliance, and financial planning for sustainable growth.",
-    image: "/arbaz.png",
+    // image: "/arbaz.png",
   },
   {
-    name: "Chaitanya Kamble",
+    // name: "Chaitanya Kamble",
     role: "Founder & CEO",
     bio: "Drives company vision, strategy, client relationships, and business growth with a strong tech background.",
-    image: "/chaitanya.png",
+    // image: "/chaitanya.png",
   },
 ]
 
@@ -105,7 +105,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Team */}
+        {/* Team
         <section className="py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-[#0f172a] mb-12 text-center">Our Team</h2>
@@ -126,7 +126,7 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Stats */}
         <section className="relative overflow-hidden bg-gradient-to-br from-blue-600 to-indigo-700 py-24 text-white">
