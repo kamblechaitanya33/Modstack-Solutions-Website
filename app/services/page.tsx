@@ -80,7 +80,7 @@ const detailedServices = [
       "PyTorch",
     ],
     icon: "",
-    imagePath: "aiImage.jpg",
+    imagePath: "ai_image.jpg",
   },
 
   {
